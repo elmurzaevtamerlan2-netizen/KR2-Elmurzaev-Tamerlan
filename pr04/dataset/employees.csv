@@ -1,0 +1,6 @@
+id,name,email,department,salary
+1,Иванов Иван,ivanov@example.com,Разработка,85000
+2,Петрова Анна,petrova@example.com,Дизайн,72000
+3,Сидоров Максим,sidorov@example.com,Аналитика,91000
+4,Кузнецова Мария,kuznetsova@example.com,Разработка,88000
+5,Смирнов Павел,smirnov@example.com,Поддержка,58000

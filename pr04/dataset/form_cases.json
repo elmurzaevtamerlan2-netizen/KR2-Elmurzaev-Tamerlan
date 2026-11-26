@@ -1,0 +1,42 @@
+[
+  {
+    "case": "Корректные данные",
+    "input": {
+      "name": "Алексей Смирнов",
+      "email": "alex@example.com",
+      "department": "Разработка",
+      "salary": "75000"
+    },
+    "expected": "Запись добавляется в текущий список"
+  },
+  {
+    "case": "Пустое ФИО",
+    "input": {
+      "name": "",
+      "email": "alex@example.com",
+      "department": "Разработка",
+      "salary": "75000"
+    },
+    "expected": "Показывается ошибка ФИО"
+  },
+  {
+    "case": "Неверный email",
+    "input": {
+      "name": "Алексей Смирнов",
+      "email": "alex-example.com",
+      "department": "Разработка",
+      "salary": "75000"
+    },
+    "expected": "Показывается ошибка email"
+  },
+  {
+    "case": "Отрицательная зарплата",
+    "input": {
+      "name": "Алексей Смирнов",
+      "email": "alex@example.com",
+      "department": "Разработка",
+      "salary": "-1"
+    },
+    "expected": "Показывается ошибка зарплаты"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Ноутбук Orion 15",
+    "price": 68990,
+    "category_id": 1,
+    "description": "Ноутбук для работы и учёбы."
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук Vega Pro",
+    "price": 94990,
+    "category_id": 1,
+    "description": "Модель с увеличенным объёмом памяти."
+  },
+  {
+    "id": 3,
+    "name": "Смартфон Nova X",
+    "price": 42990,
+    "category_id": 2,
+    "description": "Смартфон с OLED-дисплеем."
+  },
+  {
+    "id": 4,
+    "name": "Смартфон Nova Lite",
+    "price": 21990,
+    "category_id": 2,
+    "description": "Компактная повседневная модель."
+  },
+  {
+    "id": 5,
+    "name": "Беспроводная мышь",
+    "price": 2490,
+    "category_id": 3,
+    "description": "Мышь с подключением по Bluetooth."
+  },
+  {
+    "id": 6,
+    "name": "USB-C адаптер",
+    "price": 1290,
+    "category_id": 3,
+    "description": "Компактный адаптер для периферии."
+  }
+]

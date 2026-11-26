@@ -1,0 +1,11 @@
+class,property,type,description
+Product,id,int,Уникальный идентификатор товара
+Product,name,string,Название товара
+Product,price,float,Цена товара
+Product,categoryId,int,Идентификатор категории
+Product,description,string,Описание товара
+Category,id,int,Уникальный идентификатор категории
+Category,name,string,Название категории
+CatalogService,all,array,Получить все товары
+CatalogService,byCategory,array,Отфильтровать товары по категории
+CatalogService,averagePrice,float,Рассчитать среднюю цену
